@@ -5,6 +5,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 import requests
+import os
+
 
 API_KEY = "60569c7b45eb595bde23716796fc6612"
 url = "https://api.themoviedb.org/3/search/movie"
